@@ -1,5 +1,6 @@
 import '@/styles/global.css';
 import GlassPane from "@/components/GlassPane";
+import Sidebar from '@/components/Sidebar';
 
 export default function AuthRootLayout({ children }: { children: any }) {
     return (
