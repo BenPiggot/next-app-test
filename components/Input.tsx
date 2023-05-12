@@ -1,6 +1,9 @@
 import clsx from "clsx";
+import { FC } from 'react';
 
-const Input = ({ className, ...props }: { className: any}) => {
+export interface InputProps extends React.HTMLAttributes<HTMLInputElement> {};
+
+const Input: FC<InputProps> = ({ className, ...props }) => {
   return (
     <input
       className={clsx(
